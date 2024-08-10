@@ -11,4 +11,62 @@
 .nav-item .nav-link:hover{
     color: aqua !important;
 }
+/* 
+.nav-item a:hover::before {
+    transition: 300ms;
+    height: 2px;
+    content: "";
+    position: absolute;
+    bottom: 12px;
+    left: 0px;
+    background-color: aqua;
+    opacity: 0;
+    pointer-events: none;
+ 
+  }
 
+
+  .nav-item a:hover::after {
+    transition: 300ms;
+    height: 2px;
+    content: "";
+    background-color: aqua;
+    width: 100%;
+    bottom: 10px;
+    left: 0;
+    display: block;
+    opacity: 1;
+   
+  } */
+
+
+  .nav-item a:hover::before{
+     content: "";
+     height: 2px;
+     display: block;
+     left: 0;
+     width: 100%;
+     background-color: aqua;
+     opacity: 0;
+     transition: all 0.3s;
+     top: 0px;
+     transform: translateY(10px);
+  }
+
+  .nav-item a:hover::after{
+    content: "";
+    height: 2px;
+    display: block;
+    left: 0;
+    width: 100%;
+    background-color: aqua;
+    opacity: 0;
+    transition: all 0.3s;
+    bottom: 0px;
+    transform: translateY(-10px);
+  }
+.nav-item a:hover::before,.nav-item a:hover::after{
+    opacity: 1;
+    transform: translateY(0px);
+    transition: all 0.3s;
+}
