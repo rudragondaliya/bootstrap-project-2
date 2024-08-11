@@ -4,14 +4,16 @@
     box-sizing: border-box;
 }
 
+/* navbar */
 .navbar-brand span{
-    color: aqua;
+    color: #FEE715;
 }
 
 .nav-item .nav-link:hover{
-    color: aqua !important;
+    color: #FEE715 !important;
 }
-/* 
+
+
 .nav-item a:hover::before {
     transition: 300ms;
     height: 2px;
@@ -19,7 +21,7 @@
     position: absolute;
     bottom: 12px;
     left: 0px;
-    background-color: aqua;
+    background-color: #FEE715;
     opacity: 0;
     pointer-events: none;
  
@@ -30,17 +32,56 @@
     transition: 300ms;
     height: 2px;
     content: "";
-    background-color: aqua;
+    background-color: #FEE715;
     width: 100%;
     bottom: 10px;
     left: 0;
     display: block;
     opacity: 1;
    
-  } */
+  }
+
+  .navbar{
+    background-color: #101820 !important;
+  }
 
 
-  .nav-item a:hover::before{
+  /* intoduction */
+
+  .txt-1{
+    color: #FEE715;
+  }
+
+  .is-visible{
+    color: #FEE715;
+  }
+
+  .introduction{
+    background-color: #101820;
+  }
+
+  .intro-txt{
+    padding: 150px 40px;
+  }
+
+  .intro-img{
+    height: 350px;
+    width: 350px;
+    background-color: #FEE715 !important;
+    border-radius: 50%;
+    position: relative;
+    
+  }
+
+  .img-1{
+    position: absolute;
+    bottom: 20px;
+    left: 25px;
+
+  }
+
+
+  /* .nav-item a:hover::before{
      content: "";
      height: 2px;
      display: block;
@@ -69,4 +110,4 @@
     opacity: 1;
     transform: translateY(0px);
     transition: all 0.3s;
-}
+} */
