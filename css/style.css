@@ -43,10 +43,14 @@
 
   .navbar{
     background-color: #101820 !important;
+    border-bottom: #FEE715 2px solid;
   }
 
 
   /* intoduction */
+
+
+
 
   .txt-1{
     color: #FEE715;
@@ -58,27 +62,25 @@
 
   .introduction{
     background-color: #101820;
+    height: 500px !important;
   }
 
   .intro-txt{
-    padding: 150px 40px;
+    padding: 110px 40px;
   }
 
-  .intro-img{
+
+
+  /* .intro-img{
     height: 350px;
     width: 350px;
     background-color: #FEE715 !important;
-    border-radius: 50%;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
     position: relative;
     
-  }
+  } */
 
-  .img-1{
-    position: absolute;
-    bottom: 20px;
-    left: 25px;
-
-  }
 
 
   /* .nav-item a:hover::before{

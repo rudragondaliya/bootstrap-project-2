@@ -1,5 +1,5 @@
 $(function() {
     $('.selector').animatedHeadline({
-        animationType: 'type'
+        animationType: 'clip'
     });
 })
