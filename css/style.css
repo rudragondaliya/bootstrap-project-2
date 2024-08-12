@@ -10,33 +10,23 @@
   color: #FEE715;
 } 
 
+
+
 .nav-item a{
-  color: #f7f6f1 !important;
-  position: relative;
-  display: block;
-  overflow: hidden;
-}
-
-.nav-item a::before{
-  position: absolute;
-  content: attr(data-link-alt);
-  top: 100%;
-  opacity: 0;
-  transition: 1s;
-}
-
-
-.nav-item a:hover::before{
-  top: 0;
-  opacity:1;
-  color: #f2db0d;
- 
+  background:linear-gradient(to right,#f2db0d 50%,#ffffff 50%);
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 .nav-item a:hover{
-  transform: translateY(-100%);
+  background-position: 0 0;
   transition: 1s;
 }
+  
+
+
 
 
 
@@ -70,7 +60,7 @@
 
 .navbar{
   background-color: #101820 !important;
-  border-bottom: #FEE715 2px solid;
+  border-bottom: 2px solid #f2db0d;
 }
 
 
@@ -90,6 +80,7 @@
 .introduction{
   background-color: #101820;
   height: 600px !important;
+  border-bottom: 2px solid #f2db0d !important;
 }
 
 .intro-txt{
@@ -108,22 +99,62 @@
   
 } */
 
-.scrolled{
+/* .scrolled{
   position: fixed;
   width: 100%;
   background-image: linear-gradient(to right, #f2db0d, #f6e603) !important;
-  color: white !important;
+  color: #101820 !important;
   transition: .5s;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   z-index: 100;
-}
+} */
 
+
+/* 
 .icons:hover{
   transform: translateY(-10px);
   transition: all 0.4s;
   background-color: #f2db0d;
-}
+} */
 
 .link-icons:hover{
-  color:#101820 !important
+  color:#f2db0d !important;
+  transform: translateY(-10px);
+  transition: 0.3s;
+}
+
+/* about-me */
+
+.about-me{
+  background-color: #101820;
+  padding: 100px;
+  
+}
+
+.about-content{
+  color: #f2db0d;
+  box-shadow: 10px  10px 10px #f2db0d !important;
+  font-family: "Anek Devanagari", sans-serif;
+}
+
+
+.about-content .underline{
+  width: 30% !important;
+  height: 3px;
+  background-color: #f2db0d;
+}
+
+.txt{
+  line-height: 35px;
+}
+
+ .btn-1:hover{
+  background-color: #f2db0d !important;
+  color: #101820 !important;
+}
+
+
+.btn-1{
+  border: 2px solid #f2db0d !important;
+  color: #f2db0d !important;
 }
