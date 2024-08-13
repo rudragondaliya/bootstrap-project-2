@@ -132,9 +132,12 @@
 }
 
 .about-content{
-  color: #f2db0d;
-  box-shadow: 10px  10px 10px #f2db0d !important;
+  color: white;
+  box-shadow: 10px 10px 50px #f2db0d !important;
   font-family: "Anek Devanagari", sans-serif;
+  border-radius: 20px;
+  height: 600px;
+  
 }
 
 
@@ -157,4 +160,15 @@
 .btn-1{
   border: 2px solid #f2db0d !important;
   color: #f2db0d !important;
+ 
 }
+
+.img-2{
+  height: 600px !important;
+  margin-top: 50px;
+  box-shadow: 10px 10px 100px #f2db0d !important;
+  margin-left: 30px;
+  width: 80%;
+  
+}
+
