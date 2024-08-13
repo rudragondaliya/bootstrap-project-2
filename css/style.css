@@ -128,7 +128,7 @@
 .about-me{
   background-color: black;
   padding: 100px;  
-  position: relative;
+  
 }
 
 
@@ -142,28 +142,54 @@
 } */
 
 .about-img{
-  background-image: url();
+  background-image: url(https://i.pinimg.com/originals/57/db/ff/57dbffd654e3580d51e60e451c5850f9.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 500px;
   width: 400px;
   border: 1px solid white;
+  margin-left: 120px;
 }
-
+/* 
 .font-1{
   position: absolute;
   top: 120px;
-  left: 335px;
-  font-size: 8vw;
+  left: 345px;
+  font-size: 5vw;
   color: #f2db0d;
   font-family: "Montserrat", sans-serif;
-  
+} */
+
+.txt{
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
+
+.ab-txt{
+  position: absolute;
+  top: 1px;
+  left: 12px;
+  color: #FEE715;
+  font-family: "Montserrat", sans-serif;
+  font-size: 90px;
+}
+
+.me-txt{
+  position: absolute;
+  top: 120px;
+  right: 0px;
+  color: #FEE715;
+  font-family: "Montserrat", sans-serif;
+  font-size: 100px;
 }
 
 .about-content{
   height: 300px;
   width: 640px;
   position: absolute;
-  top: 280px;
-  left: 700px;
+  top: 40px;
+  left: 20px;
+ 
   
 }
 
@@ -182,6 +208,8 @@
   top: 400px;
   left: 500px;
 }
+
+
 
 
  
