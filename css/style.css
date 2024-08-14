@@ -123,11 +123,13 @@
   transition: 0.3s;
 }
 
+
 /* about-me */
 
 .about-me{
   background-color: black;
   padding: 100px;  
+  border-bottom: 2px solid #f2db0d;
   
 }
 
@@ -149,6 +151,7 @@
   width: 400px;
   border: 1px solid white;
   margin-left: 120px;
+  margin-top: 10px;
 }
 /* 
 .font-1{
@@ -200,17 +203,151 @@
   line-height: 40px;
 }
 
-.underline{
+.underline-1{
   height: 5px;
   width: 100px;
   background-color: #FEE715;
   position: absolute;
-  top: 400px;
+  top: 460px;
   left: 500px;
 }
 
+.underline-2{
+  height: 2px;
+  width: 90%;
+  background-color: #FEE715;
+}
 
 
+.btn-1:hover{
+  background-color: #FEE715 !important;
+  color: black !important;
+}
+
+/* about-me-end */
 
  
+/* education */
 
+.education{
+  position: relative;
+  padding: 100px;
+  
+}
+
+.education-title{
+  font-family: "New Amsterdam", sans-serif;
+}
+
+/* .left-arrow{
+  position: absolute;
+  height: 0px;
+  width: 0;
+  top: 28px;
+  z-index: 1;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 1px solid white;
+  right: -14px;
+} */
+
+/* .right-arrow{
+  position: absolute;
+  height: 0px;
+  width: 0;
+  top: 28px;
+  z-index: 1;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 1px solid white;
+  left: -14px;
+} */
+
+.left-box{
+  left: -20%;
+}
+.right-box{
+  left: 20%;
+}
+
+
+.yellow-dot{
+  height: 30px;
+  width: 30px;
+  border: 2px solid yellow;
+  border-radius: 50%;
+  background-color: #FEE715;
+  position: absolute;
+  right: -50px;
+  top: 32px;
+}
+
+.right-box .yellow-dot{
+  left: -50px;
+}
+
+.timeline::after{
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 80%;
+  background: white;
+  top: 130px;
+  left: 49%;
+  animation: line 4s linear forwards;
+  z-index: -1;
+}
+
+@keyframes line{
+  0%{
+    height: 0;
+  }
+  100%{
+    height: 94%;
+  }
+}
+
+.card{
+  animation: line 1s linear forwards;
+  opacity: 0;
+}
+
+@keyframes line {
+  0%{
+    opacity: 1; 
+    transform: translateY(-20px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.card:nth-child(1){
+  animation-delay: 0s;
+}
+
+.card:nth-child(2){
+  animation-delay: 2s;
+}
+
+.card:nth-child(3){
+  animation-delay: 3s;
+}
+
+.card:nth-child(4){
+  animation-delay: 4s;
+}
+
+
+.heading{
+  position: absolute;
+  top: 10px;
+  left: 35%;
+  font-size: 5vw;
+  color: #FEE715;
+}
+
+.card{
+  background-color: #FEE715 !important;
+}
