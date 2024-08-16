@@ -362,6 +362,7 @@
 
 .projects{
   padding: 50px;
+  border-bottom: 2px solid #FEE715;
 }
 
 .project-1-heading{
@@ -417,4 +418,85 @@
   border-right: 2px solid #FEE715;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
+}
+
+
+/* contact */
+
+.contact{
+  padding: 70px;
+  font-family: "New Amsterdam", sans-serif;
+  border-bottom: 2px solid #FEE715;
+}
+
+.contact-txt{
+  color: #FEE715;
+  font-size: 40px;
+}
+
+input{
+  color: white !important;
+}
+
+::placeholder{
+  color: white !important;
+}
+
+.text-area{
+  color: white !important;
+}
+
+.submit-btn:hover{
+  background-color: #FEE715 !important;
+  color: black !important;
+}
+
+.contact-us-box{
+  border-radius: 10px;
+}
+
+.contact-icon{
+  height: 60px;
+  width: 60px;
+  background-color: #FEE715;
+  border: 2px solid #f2db0d;
+  border-radius: 50%;
+  position: relative;
+}
+
+.bi-telephone-forward-fill{
+  font-size: 34px;
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  
+}
+
+.contact-info-txt{
+  position: relative;
+  font-family: "New Amsterdam", sans-serif;
+  margin-top: 170px;
+  margin-left: 100px;
+
+}
+
+.num{
+  position: absolute;
+  top: 34px;
+  left: 80px;
+}
+
+.bi-envelope-fill{
+  font-size: 34px;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  
+}
+
+.bi-geo-alt{
+  font-size: 34px;
+  position: absolute;
+  top: 5px;
+  left: 11px;
 }
