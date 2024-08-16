@@ -58,9 +58,11 @@
 } */
 
 
-.navbar{
+.navbar{ 
   background-color:black!important;
   border-bottom: 2px solid #f2db0d;
+  position: fixed;
+  top: 0;
 }
 
 
@@ -81,6 +83,8 @@
   background-color: black;
   height: 600px !important;
   border-bottom: 2px solid #f2db0d !important;
+ 
+ 
 }
 
 .intro-txt{
@@ -130,7 +134,7 @@
   background-color: black;
   padding: 100px;  
   border-bottom: 2px solid #f2db0d;
-  
+
 }
 
 
@@ -181,7 +185,7 @@
   position: absolute;
   top: 120px;
   right: 0px;
-  color: #FEE715;
+  color: white;
   font-family: "Montserrat", sans-serif;
   font-size: 100px;
 }
@@ -232,6 +236,7 @@
 .education{
   position: relative;
   padding: 100px;
+  border-bottom: 2px solid #FEE715;
   
 }
 
@@ -332,11 +337,11 @@
 }
 
 .card:nth-child(3){
-  animation-delay: 3s;
+  animation-delay: 4s;
 }
 
 .card:nth-child(4){
-  animation-delay: 4s;
+  animation-delay: 6s;
 }
 
 
@@ -350,4 +355,66 @@
 
 .card{
   background-color: #FEE715 !important;
+}
+
+
+/* projects */
+
+.projects{
+  padding: 50px;
+}
+
+.project-1-heading{
+  color: #FEE715;
+}
+
+.main-heading{
+  color: #FEE715;
+}
+
+.project-1-heading p{
+ font-family: "New Amsterdam", sans-serif;
+}
+
+.btn-code:hover{
+   background-color: #FEE715 !important;
+   color: black !important;
+}
+
+.bxl-html5{
+  color:rgb(223, 152, 21)
+}
+
+.bxl-css3{
+  color: rgb(21, 170, 230);
+}
+
+.bxl-bootstrap{
+  background-color: black;
+  color: white;
+}
+
+.bxl-jquery{
+  color: white;
+}
+
+.img-1-project{
+  height: 450px !important;
+  width: 100%;
+}
+
+.box-1{
+  border-top: 2px solid #FEE715;
+  border-bottom:2px solid #FEE715; 
+  border-left: 2px solid #FEE715;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.box-2{
+  border-top: 2px solid #FEE715;
+  border-bottom: 2px solid #FEE715;
+  border-right: 2px solid #FEE715;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
