@@ -415,13 +415,12 @@
 }
 
 .card{
-  background-color: rgb(11, 11, 31) !important;
+  background-color: #130814 !important;
   /* background:linear-gradient(90deg, rgb(174, 76, 199,1) 2%, rgba(126, 6, 169, 0.998) 82% ); */
-  color:  rgb(174, 76, 199) !important;
+  color: white !important;
 }
-
 .years{
-  color: rgb(174, 76, 199)
+  color: rgb(174, 76, 199) !important; 
 }
 
 
@@ -431,7 +430,7 @@
 
 .projects{
   padding: 50px;
-  border-bottom: 2px solid #FEE715;
+  
 }
 
 
@@ -453,8 +452,11 @@
 }
 
 .btn-code:hover{
-   background-color: #FEE715 !important;
-   color: black !important;
+   background-color: #9210a9 !important;
+   color: white !important;
+}
+.btn-code{
+  border: 2px solid purple !important;
 }
 
 .bxl-html5{
@@ -477,21 +479,21 @@
 .img-1-project{
   height: 450px !important;
   width: 100%;
-  object-fit: cover;
+  object-fit: cover !important;
 }
 
 .box-1{
-  border-top: 2px solid #FEE715;
-  border-bottom:2px solid #FEE715; 
-  border-left: 2px solid #FEE715;
+  border-top: 2px solid #cd11ee;
+  border-bottom:2px solid #cd11ee;
+  border-left: 2px solid#cd11ee;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
 }
 
 .box-2{
-  border-top: 2px solid #FEE715;
-  border-bottom: 2px solid #FEE715;
-  border-right: 2px solid #FEE715;
+  border-top: 2px solid #cd11ee;
+  border-bottom: 2px solid #cd11ee;
+  border-right: 2px solid #cd11ee;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
 }
@@ -502,13 +504,17 @@
 .contact{
   padding: 70px;
   font-family: "New Amsterdam", sans-serif;
-  border-bottom: 2px solid #FEE715;
 }
 
 .contact-txt{
-  color: #FEE715;
+  background: rgb(238,174,202);
+  background: linear-gradient(90deg, rgb(174, 76, 199) 2%, rgba(126, 6, 169, 0.998) 82%);
+  background-clip: text;
+  color: transparent;
   font-size: 40px;
 }
+ 
+
 
 input{
   color: white !important;
@@ -522,20 +528,27 @@ input{
   color: white !important;
 }
 
-.submit-btn:hover{
-  background-color: #FEE715 !important;
-  color: black !important;
+.submit-btn{
+  border: 2px solid purple !important;
 }
+
+.submit-btn:hover{
+  background-color: #9210a9 !important;
+   color: white !important;
+  
+}
+
 
 .contact-us-box{
   border-radius: 10px;
+  background-color: #130814;
 }
 
 .contact-icon{
   height: 60px;
   width: 60px;
-  background-color: #FEE715;
-  border: 2px solid #f2db0d;
+  background: #9210a9;
+
   border-radius: 50%;
   position: relative;
 }
@@ -544,7 +557,8 @@ input{
   font-size: 34px;
   position: absolute;
   top: 5px;
-  left: 8px;
+  left: 12px;
+  color: white !important;
   
 }
 
@@ -553,6 +567,7 @@ input{
   font-family: "New Amsterdam", sans-serif;
   margin-top: 170px;
   margin-left: 100px;
+  color: white !important;
 
 }
 
@@ -565,8 +580,9 @@ input{
 .bi-envelope-fill{
   font-size: 34px;
   position: absolute;
-  top: 5px;
-  left: 10px;
+  top: 6px;
+  left: 12px;
+  color: white !important;
   
 }
 
@@ -574,5 +590,91 @@ input{
   font-size: 34px;
   position: absolute;
   top: 5px;
-  left: 11px;
+  left: 13px;
+}
+
+
+/* skill */
+
+.skill-set{
+  height: 500px;
+  position: relative;
+}
+
+.skill-items{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+
+
+.skill-box{
+  height: 200px;
+  width: 200px;
+  border: 2px solid rgb(215, 25, 215);
+  border-radius: 20px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  background-color: #38293b;
+  
+}
+
+.skill-box:hover{
+  background: rgb(238,174,202);
+  background: linear-gradient(90deg, rgb(174, 76, 199) 2%, rgba(126, 6, 169, 0.998) 82%);
+}
+
+.skill-icon{
+  font-size: 130px !important;
+}
+
+.skill-head{
+  padding: 30px;
+  font-size: 50px;
+  background: linear-gradient(90deg, rgb(174, 76, 199) 2%, rgba(126, 6, 169, 0.998) 82%);
+  background-clip: text;
+  color: transparent;
+
+}
+
+.bxl-c-plus-plus{
+  color: rgb(1, 160, 223);
+}
+
+.icon-name-1{
+  position: absolute;
+  left: 13%;
+  top: 70%;
+  font-size: 40px;
+
+}
+
+.icon-name-2{
+  position: absolute;
+  left: 30%;
+  top: 70%;
+  font-size: 40px;
+}
+
+.icon-name-3{
+  position: absolute;
+  left: 45%;
+  top: 70%;
+  font-size: 40px;
+}
+
+.icon-name-4{
+  position: absolute;
+  left: 61%;
+  top: 70%;
+  font-size: 40px;
+}
+
+.icon-name-5{
+  position: absolute;
+  left: 82%;
+  top: 70%;
+  font-size: 40px;
 }
