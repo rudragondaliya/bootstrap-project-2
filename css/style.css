@@ -321,12 +321,12 @@
 
 .left-box{
   left: -20%;
-  top: 100px;
+  top: 140px;
   
 }
 .right-box{
   left: 20%;
-  top: 100px;
+  top: 140px;
   
 }
 
@@ -545,7 +545,6 @@ input{
   height: 60px;
   width: 60px;
   background: #9210a9;
-
   border-radius: 50%;
   position: relative;
 }
@@ -593,17 +592,12 @@ input{
 
 /* skill */
 
-.skill-set{
-  height: 500px;
+ .skill-set-1{
   position: relative;
-}
+  padding: 50px; 
+ }
 
-.skill-items{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 10px;
-}
+
 
 
 .skill-box{
@@ -611,9 +605,6 @@ input{
   width: 200px;
   border: 2px solid rgb(215, 25, 215);
   border-radius: 20px;
-  display: flex;
-  justify-content:center;
-  align-items: center;
   background-color: #38293b;
   
 }
@@ -636,45 +627,29 @@ input{
 
 }
 
-.bxl-c-plus-plus{
-  color: rgb(1, 160, 223);
+.bxl-css3 {
+  font-size: 80px;
+  margin-top: 40px;
 }
 
-.icon-name-1{
-  position: absolute;
-  left: 13%;
-  top: 70%;
-  font-size: 40px;
-
+.bxl-html5{
+  font-size: 80px;
+  margin-top: 40px;
 }
 
-.icon-name-2{
-  position: absolute;
-  left: 30%;
-  top: 70%;
-  font-size: 40px;
+.bxl-jquery{
+  font-size: 80px;
+  margin-top: 40px;
 }
 
-.icon-name-3{
-  position: absolute;
-  left: 45%;
-  top: 70%;
-  font-size: 40px;
+.bxl-bootstrap{
+  font-size: 80px;
+  margin-top: 40px;
 }
 
-.icon-name-4{
-  position: absolute;
-  left: 61%;
-  top: 70%;
-  font-size: 40px;
-}
 
-.icon-name-5{
-  position: absolute;
-  left: 82%;
-  top: 70%;
-  font-size: 40px;
-}
+
+
 
 .foot-btn:hover{
   background: rgb(238,174,202);

@@ -32,6 +32,122 @@
     margin-top: 50px;
     margin-right: 20px;
   }
+  .education{
+   padding: 80px;
+ }
+ 
+ .education .container{
+   position: relative;
+   height: 130vh;
+ }
+ 
+ 
+ 
+ 
+ 
+ .left-box{
+   left: 10%;
+   top: 120px;
+   
+ }
+ .right-box{
+   left: 10%;
+   top: 120px;
+   
+ }
+ 
+ 
+ .yellow-dot{
+   height: 30px;
+   width: 30px;
+   border: 2px solid hsl(289, 89%, 49%);
+   border-radius: 50%;
+   background:linear-gradient(90deg, rgb(174, 76, 199) 2%, rgba(126, 6, 169, 0.998) 82%);
+   position: absolute;
+   left: -32px;
+   top: 32px;
+   
+ }
+ 
+ .right-box .yellow-dot{
+   left: -25px;
+ }
+ 
+ .timeline::after{
+   content: "";
+   position: absolute;
+   width: 6px;
+   height: 80%;
+   background: white;
+   top: 172px;
+   left: 0%;
+   animation: line 4s linear forwards;
+   z-index: -1;
+ }
+ 
+ @keyframes line{
+   0%{
+     height: 0;
+   }
+   100%{
+     height: 94%;
+   }
+ }
+ 
+ .card{
+   animation: line 1s linear forwards;
+   opacity: 0;
+ }
+ 
+ @keyframes line {
+   0%{
+     opacity: 1; 
+     transform: translateY(-20px);
+   }
+   100%{
+     opacity: 1;
+     transform: translateY(0);
+   }
+ }
+ 
+ .card:nth-child(1){
+   animation-delay: 0s;
+ }
+ 
+ .card:nth-child(2){
+   animation-delay: 2s;
+ }
+ 
+ .card:nth-child(3){
+   animation-delay: 4s;
+ }
+ 
+ .card:nth-child(4){
+   animation-delay: 6s;
+ }
+ 
+ 
+ .heading{
+   position: absolute;
+   top: 10px;
+   left: 35%;
+   font-size: 5vw;
+   background: linear-gradient(90deg, rgb(174, 76, 199) 2%, rgba(126, 6, 169, 0.998) 82%);
+   background-clip: text;
+   color: transparent;
+   margin-top:10px
+ }
+ 
+ .card{
+   background-color: #130814 !important;
+   /* background:linear-gradient(90deg, rgb(174, 76, 199,1) 2%, rgba(126, 6, 169, 0.998) 82% ); */
+   color: white !important;
+ }
+ .years{
+   color: rgb(174, 76, 199) !important; 
+ }
+
+ 
 }
 
 
@@ -64,31 +180,13 @@
             margin-right: 30px;
          }
 
+         
+
         }
 
 @media(max-width:992px){
-    .box-1{
-        border-top: 2px solid #cd11ee;
-        border-bottom:2px solid #cd11ee;
-        border-left: 2px solid#cd11ee;
-        border-right: 2px solid #cd11ee;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-         }
-      
-         .box-2{
-        border-top: 2px solid #cd11ee;
-        border-bottom: 2px solid #cd11ee;
-        border-right: 2px solid #cd11ee;
-        border-left: 2px solid #cd11ee;
-        border-top-left-radius: 20px;
-        border-bottom-left-radius: 20px;
-        border-top-right-radius: 20px;
-        border-bottom-right-radius: 20px;
-        margin-top: 20px;
-         }
+    
+   
 
          .img-profile{
             margin-top:  130px;
@@ -105,12 +203,13 @@
             margin-right: 30px;
          }
 
-         
- 
+  
+   }  
 
 @media(max-width:1200px){
-    
+   
 }
 @media(max-width:1400px){
     
+   
 }
