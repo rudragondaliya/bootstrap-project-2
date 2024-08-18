@@ -177,25 +177,22 @@
 
 .about-me{
   background-color: black;
-  padding: 100px;  
- 
-
+  padding: 50px;
 }
 
 
 
 
 
-.about-img{
-  /* background-image: url(https://i.pinimg.com/originals/57/db/ff/57dbffd654e3580d51e60e451c5850f9.jpg); */
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 500px;  
-  width: 400px;
-  border: 1px solid white;
-  margin-left: 120px;
-  margin-top: 10px;
-}
+
+  /* .about-img{
+
+    height: 500px;  
+    width: 400px;
+    border: 1px solid white;
+    margin-left: 150px;
+    margin-top: 10px;
+  } */
 
 .txt{
   writing-mode: vertical-rl;
@@ -677,4 +674,9 @@ input{
   left: 82%;
   top: 70%;
   font-size: 40px;
+}
+
+.foot-btn:hover{
+  background: rgb(238,174,202);
+  background: linear-gradient(90deg, rgb(174, 76, 199) 2%, rgba(126, 6, 169, 0.998) 82%);
 }
