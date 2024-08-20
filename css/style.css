@@ -96,6 +96,10 @@
   padding: 80px 40px;
 }
 
+.img-1{
+  height: 500px !important;
+  background-color: #130814 !important;
+}
 
 
 /* .intro-img{
@@ -276,6 +280,12 @@
   background: linear-gradient(90deg, rgb(174, 76, 199) 2%, rgba(126, 6, 169, 0.998) 82%);
   color: white !important;
   transition: 0.4s;
+}
+
+.img-profile{
+  height: 500px !important;
+  width: 400px;
+  
 }
 
 /* about-me-end */
