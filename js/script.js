@@ -5,14 +5,14 @@ $(function() {
 })
 
 
-// document.addEventListener("DOMContentLoaded", function(){
-//     const navigation = document.querySelector('.navbar');
+$(document).ready(function(){
+    $('a href= "#top"').on('click',function(){
+        $('html,body').animate({
+            scrollTop:0,
+            Time:6000
+        })
+    })
+})
 
-//     window.addEventListener('scroll', () => {
-//         if(window.scrollY > 0){
-//             navigation.classList.add('scrolled');
-//         }else{
-//             navigation.classList.remove('scrolled');
-//         }
-//     });
-// });
+
+

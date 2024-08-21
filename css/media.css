@@ -57,7 +57,7 @@
  }
  
  
- .yellow-dot{
+ .purple-dot{
    height: 30px;
    width: 30px;
    border: 2px solid hsl(289, 89%, 49%);
@@ -66,11 +66,13 @@
    position: absolute;
    left: -32px;
    top: 32px;
+   display: none !important;
    
  }
  
- .right-box .yellow-dot{
+ .right-box .purple-dot{
    left: -25px;
+   display: none;
  }
  
  .timeline::after{
