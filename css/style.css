@@ -562,7 +562,7 @@ input{
 .bi-telephone-forward-fill{
   font-size: 34px;
   position: absolute;
-  top: 5px;
+  top: 7px;
   left: 12px;
   color: white !important;
   
@@ -587,15 +587,15 @@ input{
   font-size: 34px;
   position: absolute;
   top: 6px;
-  left: 12px;
+  left: 13px;
   color: white !important;
   
 }
 
-.bi-geo-alt{
+.bi-geo-alt-fill{
   font-size: 34px;
   position: absolute;
-  top: 5px;
+  top: 7px;
   left: 13px;
 }
 
@@ -604,7 +604,11 @@ input{
 
  .skill-set-1{
   position: relative;
-  padding: 50px; 
+  padding: 30px 20px 80px; 
+ }
+
+ .skill-set-2{
+  padding: 30px 20px 80px;
  }
 
 
@@ -655,9 +659,13 @@ input{
 .bxl-bootstrap{
   font-size: 80px;
   margin-top: 40px;
+  background-color: transparent;
 }
 
 
+.foot-btn{
+  border-radius: 50% !important;
+}
 
 
 
